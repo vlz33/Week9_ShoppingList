@@ -9,7 +9,7 @@ namespace MyWishListFile
     {
         static void Main(string[] args)
         {
-            string fileLocation = @"C:\Users\Ville\Desktop\KOOL\Programmeerimine\Nädal 8 failid\wishlist";
+            string fileLocation = @"C:\...\...\...\...\...\...\wishlist";
             string fileName = @"\\wishlist.txt";
 
             string[] arrayFromFile = File.ReadAllLines($"{fileLocation}{fileName}");
@@ -18,12 +18,12 @@ namespace MyWishListFile
             bool loopActive = true;
             while (loopActive)
             {
-                Console.WriteLine("Would you like to add a wish? Y/N:");
+                Console.WriteLine("Add an item? Y/N:");
                 char userInput = Convert.ToChar(Console.ReadLine().ToLower());
 
                 if (userInput == 'y')
                 {
-                    Console.WriteLine("Enter your wish:");
+                    Console.WriteLine("Enter your item:");
                     string userWish = Console.ReadLine();
                     myWishList.Add(userWish);
                 }
