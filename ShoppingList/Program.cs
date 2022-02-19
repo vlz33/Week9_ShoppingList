@@ -8,7 +8,7 @@ namespace ShoppingList
     {
         static void Main(string[] args)
         {
-            string rootDirectory = @"C:\Users\Ville\Desktop\KOOL\Programmeerimine\Nädal 8 failid";
+            string rootDirectory = @"C:\...\...\...\...\...\Nädal 8 failid";
             Console.WriteLine("Enter directory name: 'shopping list'");
             string newDirectory = Console.ReadLine();
             Console.WriteLine("Enter file name: 'myshoppinglist.txt'");
